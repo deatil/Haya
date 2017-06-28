@@ -61,13 +61,12 @@ class Curl
 		$data = is_array($data) ? http_build_query($data) : $data;  
 		
 		/**
-			CURLOPT_SSL_VERIFYHOST的值
-
-			设为0表示不检查证书
-			设为1表示检查证书中是否有CN(common name)字段
-			设为2表示在1的基础上校验当前的域名是否与CN匹配
+		 *	CURLOPT_SSL_VERIFYHOST的值
+                 *
+		 *	设为0表示不检查证书
+		 *	设为1表示检查证书中是否有CN(common name)字段
+		 *	设为2表示在1的基础上校验当前的域名是否与CN匹配
 		 */
-
 		$options = array(
 			//CURLOPT_USERAGENT => $_SERVER['HTTP_USER_AGENT'],  // 模拟用户使用的浏览     
 			//CURLOPT_HTTPHEADER => isset($GLOBALS['cookie_file']) ? $GLOBALS['cookie_file'] : '',  // 读取上面所储存的Cookie信息     
