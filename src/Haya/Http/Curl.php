@@ -172,7 +172,7 @@ class Curl
 
 
 /** 
- * CURL批量设置[5 .1.4之前的版本，我们可以如下模仿这个函数]
+ * CURL批量设置
  *
  * @create 2016-9-12
  * @author deatil
