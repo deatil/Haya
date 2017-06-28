@@ -17,7 +17,7 @@ class Curl
 	 * @create 2016-12-15
 	 * @author deatil
 	 */
-	public $errno = '';
+	public $errno = 0;
 	
 	/**
 	 * 错误信息
