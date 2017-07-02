@@ -213,8 +213,8 @@ class Rss
     {
         if (empty($name)) {
             return $this->config;
-        } elseif (isset($new->config[$name])) {
-            return $new->config[$name];
+        } elseif (isset($this->config[$name])) {
+            return $this->config[$name];
         } else {
             return null;
         }
