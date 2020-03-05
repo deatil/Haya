@@ -130,7 +130,7 @@ class Socket
      * @create 2017-6-30
      * @author deatil
      */
-    public function getData($data) 
+    public function getData() 
     {
         return $this->data;
     }
