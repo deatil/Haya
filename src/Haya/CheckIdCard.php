@@ -8,7 +8,7 @@ namespace Haya;
  * @create 2020-3-5
  * @author deatil 
  */
-class checkIdCard
+class CheckIdCard
 {
     // $num为身份证号码，$checkSex：1为男，2为女，不输入为不验证
     public function checkIdentity($num, $checkSex = '')
