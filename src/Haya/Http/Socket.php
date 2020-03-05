@@ -82,7 +82,7 @@ class Socket
      * @create 2017-6-30
      * @author deatil
      */
-    public function getAddress($address) 
+    public function getAddress() 
     {
         return $this->address;
     }
@@ -106,7 +106,7 @@ class Socket
      * @create 2017-6-30
      * @author deatil
      */
-    public function getPort($port) 
+    public function getPort() 
     {
         return $this->port;
     }
@@ -180,7 +180,7 @@ class Socket
     }
 
     /**
-     * socket寫入數據
+     * socket写入数据
      * 
      * @create 2017-6-30
      * @author deatil
