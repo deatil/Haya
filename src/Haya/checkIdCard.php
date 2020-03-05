@@ -1,5 +1,14 @@
 <?php
-class check_IdCard
+
+namespace Haya;
+
+/**
+ * 检测身份证号
+ * 
+ * @create 2020-3-5
+ * @author deatil 
+ */
+class checkIdCard
 {
     // $num为身份证号码，$checkSex：1为男，2为女，不输入为不验证
     public function checkIdentity($num, $checkSex = '')
@@ -201,11 +210,13 @@ class check_IdCard
     }
 }
 // 测试
+/*
 header("content-type:text/html;charset=utf-8");
 $num = '230106199202099035'; //此号码为随机生成
 $test = new check_IdCard();
 $data = $test->checkIdentity($num);
 var_dump($data);
+*/
 //=============新的18位身份证号码各位的含义:=======================
 //1-2位省、自治区、直辖市代码；11-65
 //3-4位地级市、盟、自治州代码；
