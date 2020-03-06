@@ -4,8 +4,7 @@
     "license": "Apache-2.0",
     "type": "library",
     "keywords": [
-        "haya",
-        "lake"
+        "haya"
     ],
     "homepage": "https://github.com/deatil",
     "authors": [
@@ -20,9 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "lake\\": "src/lake"
-        },
-        "files": [
-        ]
+            "Haya\\": "src/Haya"
+        }
     }
 }
